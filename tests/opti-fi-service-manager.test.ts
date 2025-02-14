@@ -9,7 +9,7 @@ import {
 import { Bytes, BigInt, Address } from "@graphprotocol/graph-ts"
 import { Debug } from "../generated/schema"
 import { Debug as DebugEvent } from "../generated/OptiFiServiceManager/OptiFiServiceManager"
-import { handleDebug } from "../src/opti-fi-service-manager"
+import { handleDebug } from "../src/optifi-service-manager"
 import { createDebugEvent } from "./opti-fi-service-manager-utils"
 
 // Tests structure (matchstick-as >=0.5.0)
